@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import AllBeers from './pages/AllBeers';
+import OneBeer from './pages/OneBeer';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element=<HomePage />>Home</Route>
         <Route path='/beers' element=<AllBeers />>Home</Route>
-        <Route path='/:id' element=<HomePage />>Home</Route>
+        <Route path='/beers/:id' element=<OneBeer />>Home</Route>
         <Route path='/random' element=<HomePage />>Home</Route>
         <Route path='/new' element=<HomePage />>Home</Route>
         {/* <Route path='/search?q={query}' element=<HomePage />>Home</Route> */}
