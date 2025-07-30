@@ -24,7 +24,6 @@ function RandomBeer() {
                 <p>{beer.contributed_by}</p>
                 <p></p>
          </div>
-    
 }
 
 export default RandomBeer;

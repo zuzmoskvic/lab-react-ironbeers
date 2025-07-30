@@ -16,8 +16,8 @@ function App() {
         <Route path='/' element=<HomePage />/>
         <Route path='/beers' element=<AllBeers />/>
         <Route path='/beers/:id' element=<OneBeer />/>
-        <Route path='/random' element=<RandomBeer />/>
-        <Route path='/new' element=<NewBeer />/>
+        <Route path='/random-beer' element=<RandomBeer />/>
+        <Route path='/new-beer' element=<NewBeer />/>
         {/* <Route path='/search?q={query}' element=<HomePage />>Home</Route> */}
       </Routes>
     </div>

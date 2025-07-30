@@ -4,8 +4,8 @@ function HomePage() {
   return (
     <div>
         <p><Link to="/beers">All beers</Link></p>
-        <p><Link to="/random">Random beer</Link></p>
-        <p><Link to="/new">New beer</Link></p>
+        <p><Link to="/random-beer">Random beer</Link></p>
+        <p><Link to="/new-beer">New beer</Link></p>
 
     </div>
   );
