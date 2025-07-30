@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element=<HomePage />>Home</Route>
-        <Route path='/all-beers' element=<AllBeers />>Home</Route>
+        <Route path='/beers' element=<AllBeers />>Home</Route>
         <Route path='/:id' element=<HomePage />>Home</Route>
         <Route path='/random' element=<HomePage />>Home</Route>
         <Route path='/new' element=<HomePage />>Home</Route>
